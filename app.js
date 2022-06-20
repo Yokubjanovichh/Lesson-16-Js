@@ -1,7 +1,17 @@
-console.log("hello world");
+// console.log("hello world");
 
-function sayHelloWorld(text){
-    console.log(text);
+// function sayHelloWorld(text){
+//     console.log(text);
+// }
+
+// sayHelloWorld("said hello world!!");
+
+function calc(a, b) {
+  console.log(a + b);
+  console.log(a * b);
+  console.log(a ** b);
+  console.log(a - b);
+  console.log(a / b);
 }
-
-sayHelloWorld("said hello world!!");
+calc(4, 6);
+calc(4, 9);
