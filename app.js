@@ -26,9 +26,14 @@
 
 //foo(); funcsiyaning oldidan chaqirib quyilsa funcsiya ishlamaydi
 
-let foo = function() {
-    console.log("hello world");    
-}
+// let foo = function() {
+//     console.log("hello world");
+// }
 
-foo();
+// foo();
 
+// console.log(arrowFunc(10, 2));   ARROW FUNCTIONNI HAM UZIDAN OLDIN CHAQIRIB BULMAYDI
+
+let arrowFunc = (a, b) => a + b;
+
+console.log(arrowFunc(10, 2));
