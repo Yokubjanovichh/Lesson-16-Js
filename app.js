@@ -15,10 +15,9 @@
 // }
 // calc(4, 6);
 // calc(4, 9);
-
+let ism = nameJs("Murodulla", "Yuldashev");
+console.log(ism);
 
 function nameJs(name, surname) {
-    console.log(`Myn name is ${name} ${surname}`);
+  return(`Myn name is ${name} ${surname}`);
 }
-
-nameJs("Murodulla", "Yuldashev");
