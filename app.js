@@ -6,12 +6,19 @@
 
 // sayHelloWorld("said hello world!!");
 
-function calc(a, b) {
-  console.log(a + b);
-  console.log(a * b);
-  console.log(a ** b);
-  console.log(a - b);
-  console.log(a / b);
+// function calc(a, b) {
+//   console.log(a + b);
+//   console.log(a * b);
+//   console.log(a ** b);
+//   console.log(a - b);
+//   console.log(a / b);
+// }
+// calc(4, 6);
+// calc(4, 9);
+
+
+function nameJs(name, surname) {
+    console.log(`Myn name is ${name} ${surname}`);
 }
-calc(4, 6);
-calc(4, 9);
+
+nameJs("Murodulla", "Yuldashev");
