@@ -1,3 +1,5 @@
+"use strict";
+
 // console.log("hello world");
 
 // function sayHelloWorld(text){
@@ -15,9 +17,18 @@
 // }
 // calc(4, 6);
 // calc(4, 9);
-let ism = nameJs("Murodulla", "Yuldashev");
-console.log(ism);
+// let ism = nameJs("Murodulla", "Yuldashev");
+// console.log(ism);
 
-function nameJs(name, surname) {
-  return(`Myn name is ${name} ${surname}`);
+// function nameJs(name, surname) {
+//   return(`Myn name is ${name} ${surname}`);
+// }
+
+//foo(); funcsiyaning oldidan chaqirib quyilsa funcsiya ishlamaydi
+
+let foo = function() {
+    console.log("hello world");    
 }
+
+foo();
+
