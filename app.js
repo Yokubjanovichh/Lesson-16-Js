@@ -34,6 +34,13 @@
 
 // console.log(arrowFunc(10, 2));   ARROW FUNCTIONNI HAM UZIDAN OLDIN CHAQIRIB BULMAYDI
 
-let arrowFunc = (a, b) => a + b;
+// let arrowFunc = (a, b) => a + b;
 
-console.log(arrowFunc(10, 2));
+// console.log(arrowFunc(10, 2));
+
+// Agar kodimiz kuproq bulsa
+
+let arrowFunc =(a) =>{
+    console.log("!");
+    return a;
+}
